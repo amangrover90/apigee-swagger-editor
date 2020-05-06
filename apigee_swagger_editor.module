@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ * @param type $existing
+ * @param type $type
+ * @param type $theme
+ * @param type $path
+ * @return type
+ */
+function apigee_swagger_editor_theme($existing, $type, $theme, $path) {
+  return array(
+    'apigee_swagger_editor_view' => array(
+      'template' => 'apigee-swagger-editor-view',
+    ),
+    'apigee_iframe_swagger_editor_view' => array(
+      'template' => 'apigee-iframe-swagger-editor-view',
+    )
+    
+    );
+}
+

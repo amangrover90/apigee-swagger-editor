@@ -1,0 +1,7 @@
+swagger_editor_library:
+    css:
+        theme:
+            css/swagger-editor.css: {}
+    js:
+        js/swagger-editor-bundle.js: {}
+        js/swagger-editor-standalone-preset.js: {}

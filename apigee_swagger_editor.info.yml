@@ -1,0 +1,4 @@
+name: APIGEE SWAGGER EDITOR
+type: module
+description: Integrate Swagger Editor in Drupal
+core: 8.x

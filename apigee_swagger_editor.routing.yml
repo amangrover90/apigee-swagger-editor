@@ -1,0 +1,15 @@
+apigee_swagger_editor.swagger_editor:
+  path: '/swagger-editor'
+  defaults:
+    _controller: '\Drupal\apigee_swagger_editor\Controller\ApigeeSwaggerController::getSwaggerEditor'
+  methods: [GET]
+  requirements:
+    _access: 'TRUE'
+    
+apigee_swagger_editor.swagger_iframe_editor:
+  path: '/iframe-swagger-editor'
+  defaults:
+    _controller: '\Drupal\apigee_swagger_editor\Controller\ApigeeSwaggerController::getIframeSwaggerEditor'
+  methods: [GET]
+  requirements:
+    _access: 'TRUE'

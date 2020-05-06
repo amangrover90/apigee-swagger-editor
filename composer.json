@@ -1,0 +1,13 @@
+{
+        "type": "package",
+         "package": {
+             "name": "drupal/apigee_swagger_editor",
+             "version": "dev",
+             "type": "drupal-module",
+             "source": {
+                 "url": "https://github.com/amangrover90/apigee-swagger-editor",
+                 "type": "git",
+                 "reference": "master"
+            }
+        }
+    }
